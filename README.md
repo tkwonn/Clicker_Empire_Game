@@ -8,7 +8,7 @@ This is one of the projects in a Computer Science learning platform called [Recu
 
 ## Demo
 
-<a href="https://imgflip.com/gif/5mk9nf"></a>
+![Screen Recording 2021-09-10 at 13 36 47](https://user-images.githubusercontent.com/66197642/132916005-6a20a934-5003-485a-987e-a9ab3c73ccfb.gif)
 
 ## URL
 
