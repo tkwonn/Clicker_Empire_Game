@@ -1,0 +1,165 @@
+/* Fonts */
+.font-od {
+  font-family: 'Odibee Sans', cursive;
+  letter-spacing: 2px;
+}
+
+.title{
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Background Color */
+.bg-empire{
+  background-image: url(../img/empireState.jpg);
+  background-size:  cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+}
+
+.bg-purple{
+  background-color: #383a59;
+}
+
+.bg-darkPurple{
+  background-color: #282a36;
+}
+
+.bg-gray{
+  background-color: #c1c8d4;
+}
+
+.bg-pink{
+  background-color: rgb(230, 141, 156);
+}
+
+/* Text Color */
+.text-darkPurple{
+  color: #282a36;
+}
+
+.text-orange{
+  color: #ffb86c;
+}
+
+.text-gray{
+  color: #c1c8d4;
+}
+
+
+
+
+.hover:hover{
+  cursor: pointer;
+  transform: translate(0, -2px);
+}
+
+.user-select{
+  user-select: none;
+}
+
+.burger-size{
+  max-width: 280px;
+}
+
+.item-box{
+  max-height: 400px;
+  overflow-y: scroll;
+  box-shadow: 0 1px 20px #252a2ea8;
+  /* スマホサイズ用 */
+  white-space: nowrap;
+}
+
+/* .item-box::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+}
+
+.item-box::-webkit-scrollbar-thumb{
+  border-radius: 5px;
+  background-color: rgb(230, 141, 156);
+}
+
+.item-box::-webkit-scrollbar-track{
+  border-radius: 5px;
+  background-color: black;
+} */
+
+.item-btn{
+  max-height: 95px;
+  margin-top: 5px;
+  border-bottom: 2px solid #c1c8d4;
+}
+
+.itemInfo-box{
+  height: 400px;
+}
+
+.item-description{
+  height: 220px;
+}
+
+#player-money{
+  font-size: x-large;
+}
+
+.border-btm{
+  border-bottom: 2px solid #c1c8d4;
+}
+
+.box-shadow{
+  box-shadow: 1px 1px 5px #000;
+}
+
+
+/* モーダルウィンドウここから */
+#mask {
+/* マスクは画面いっぱいに表示したいのでposition: fixed; にしてtop と bottom と right と left をそれぞれ 0 にしてあげると画面いっぱいに広がる*/
+  background: #383a599c;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mask.hidden {
+  visibility: hidden;
+}
+
+#modal {
+  background: #c1c8d4;
+  width: 50%;
+  padding: 20px;
+  border-radius: 4px;
+  transition: transform .4s;
+  z-index: 9999;
+}
+
+#modal.hidden {
+  transform: translate(0, -500px);
+}
+
+#close_button {
+  text-align: right;
+  font-size: 24px;
+  cursor: pointer;
+  color: #748182;
+}
+
+#help:hover {
+  color: rgb(230, 141, 156);
+}
+
+/* スマホ用 */
+@media screen and (max-width: 575px){
+  #modal{
+    width: 80%;
+    font-size: small;
+    padding: 10px;
+  }
+}

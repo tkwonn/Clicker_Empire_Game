@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet">
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <title>Clicker Empire Game</title>
+  </head>
+  <body>
+    <div class="bg-dark vh-100">
+      <div id="startPage" class="bg-dark">
+        <div
+          class="
+            vh-100
+            bg-empire
+            d-flex
+            justify-content-center
+            align-items-center
+          "
+        >
+          <div
+            class="
+              d-flex
+              flex-column
+              justify-content-center
+              align-items-center
+              bg-white
+              col-md-4 col-6
+              p-4
+            "
+          >
+            <h2 class="pb-3 text-center">Clicker Empire Game</h2>
+            <form
+              id="game-form"
+              onsubmit="initializePlayerGame(); event.preventDefault();"
+            >
+              <div class="form-group">
+                <input
+                  type="text"
+                  name="playerName"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+              <div class="form-group d-flex">
+                <div class="form-check mr-3">
+                  <input
+                    id="newGame"
+                    class="form-check-input"
+                    type="radio"
+                    name="gameType"
+                    checked
+                    required
+                  />
+                  <label class="form-check-label" for="newGame">New Game</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    id="loadGame"
+                    class="form-check-input"
+                    type="radio"
+                    name="gameType"
+                    required
+                  />
+                  <label class="form-check-label" for="loadGame"
+                    >Load Game</label
+                  >
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary col-12">
+                Start
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div id="mainPage"></div>
+      <!-- <div id="mainPage">
+        <div class="row bg-dark vh-100">
+          <div class="bg-white col-sm-8 col-10 m-auto font-od">
+            <div>
+              <div class="mb-md-4 m-3">
+                <div id="player-info" class="row mb-4">
+                  <div class="col-lg-9 col-12">
+                    <h2>Total Balance:</h2>
+                    <p id="player-money" class="pt-2 border-bottom text-right">
+                      $50,000
+                    </p>
+                  </div>
+                  <div class="row col-lg-3 col-12 text-right">
+                    <p id="player-name" class="col-lg-12 col-4">Player: Kwon</p>
+                    <p id="player-age" class="col-lg-12 col-4">
+                      20
+                      <small>yrs old</small>
+                    </p>
+                    <p id="player-days" class="col-lg-12 col-4">
+                      1000
+                      <small>days</small>
+                    </p>
+                  </div>
+                </div>
+                <div class="row justify-content-center">
+                  <div class="col-4 mb-3">
+                    <div id="burger" class="pb-2">
+                      <p class="fs-3 text-center">
+                        0
+                        <small>Burgers</small>
+                      </p>
+                    </div>
+                    <div class="burger-size m-auto hover">
+                      <div>
+                        <img
+                          class="img-fluid"
+                          src="img/cheeseBurger.png"
+                          alt="burger"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-12">
+                    <div class="item-list h-100">
+                      <div class="item hover h-100">
+                        <button class="btn w-100 h-100">
+                          <div class="row align-items-center h-100">
+                            <div class="col-xl-2 col-lg-4 col-3 h-100">
+                              <img
+                                class="img-fluid h-100"
+                                src="img/flipMachine.png"
+                                alt="flipMachine"
+                              />
+                            </div>
+                            <div class="col-xl-8 col-lg-6 col-7 h-100">
+                              <div>
+                                <p class="title">[ Flip Machine ]</p>
+                              </div>
+                              <div class="row h-50 justify-content-between">
+                                <p class="col-6 info">$15,000</p>
+                                <p class="col-6 info">+ $25 / click</p>
+                              </div>
+                            </div>
+                            <div class="col-2 text-right">
+                              <p>
+                                0
+                                <small>/ 500</small>
+                              </p>
+                            </div>
+                          </div>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 d-flex pb-2">
+                <div class="col-6 pb-1">
+                  <button id="save" class="btn hover">
+                    <img src="img/save.png" width="30" alt="save" />
+                  </button>
+                  <button id="restart" class="btn hover">
+                    <img src="img/restart.png" width="30" alt="restart" />
+                  </button>
+                </div>
+                <div class="col-6 text-right pt-1">
+                  <button id="help" class="btn hover font-od">
+                    <img src="img/help.png" width="30" alt="help" />
+                    How to play
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <script type="text/javascript" src="scripts/app.js"></script>
+  </body>
+</html>
