@@ -1,4 +1,4 @@
-# Clicker_Empire_Game
+# Clicker Empire Game
 
 ## Description
 
