@@ -24,4 +24,3 @@ Suppose you are 20 years old and you work in a fast-food restaurant. For every b
 3. You can increase the amount of money you get in 1 click or 1 second by purchasing items.
 4. If you want to save or reset your data, click the button at the lower left.
 
-Make a giant leap from fast-food restaurant to the World !!!
