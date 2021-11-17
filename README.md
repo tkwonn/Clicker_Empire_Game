@@ -29,8 +29,6 @@ Suppose you are 20 years old and you work in a fast-food restaurant. For every b
 
 Taesok Kwon - [@twitter_handle](https://twitter.com/twitter_handle) - linkedIn account
 
-Project Link: [https://tkwonn.github.io/computer-builder/](https://tkwonn.github.io/computer-builder/)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
