@@ -1,6 +1,6 @@
 # Clicker Empire Game
 
-## Description
+## About the project
 
 [Recursion]:https://recursionist.io/
 
@@ -23,4 +23,14 @@ Suppose you are 20 years old and you work in a fast-food restaurant. For every b
 2. In the game world, a day passes in just one second.
 3. You can increase the amount of money you get in 1 click or 1 second by purchasing items.
 4. If you want to save or reset your data, click the button at the lower left.
+
+<!-- CONTACT -->
+## Contact
+
+Taesok Kwon - [@twitter_handle](https://twitter.com/twitter_handle) - linkedIn account
+
+Project Link: [https://tkwonn.github.io/computer-builder/](https://tkwonn.github.io/computer-builder/)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
