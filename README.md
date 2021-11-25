@@ -1,4 +1,7 @@
-# Clicker Empire Game
+### Clicker Empire Game
+
+[日本語版 README はこちら](https://github.com/tkwonn/Clicker_Empire_Game/blob/main/README-ja.md)
+
 
 ## About the project
 
@@ -24,11 +27,5 @@ Suppose you are 20 years old and you work in a fast-food restaurant. For every b
 3. You can increase the amount of money you get in 1 click or 1 second by purchasing items.
 4. If you want to save or reset your data, click the button at the lower left.
 
-<!-- CONTACT -->
-## Contact
-
-Taesok Kwon - [@twitter_handle](https://twitter.com/twitter_handle) - linkedIn account
-
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
