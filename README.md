@@ -3,29 +3,21 @@
 [日本語版 README はこちら](https://github.com/tkwonn/Clicker_Empire_Game/blob/main/README-ja.md)
 
 
-## About the project
-
-[Recursion]:https://recursionist.io/
-
-This is one of the projects in a Computer Science learning platform called [Recursion].
-
-## Demo
+## Description
 
 ![Screen Recording 2021-09-10 at 13 36 47](https://user-images.githubusercontent.com/66197642/132916005-6a20a934-5003-485a-987e-a9ab3c73ccfb.gif)
 
-## URL
-
-https://clicker-empire-game-five.vercel.app/
+1. This is an app where the user can earn money by clicking on hamburgers, and use the money to upgrade, invest, or buy real estate.
 
 
-## How to play
+## Features
 
-Suppose you are 20 years old and you work in a fast-food restaurant. For every burger you flip, you earn 25 yen. To be a millionare, save up your money and upgrade, invest or buy real estate.
+* Once the user has chosen a username and whether to start from the "Beginning" or from "Saved Data", the game will start. When user enters their username, they can type "cheater" to start as a millionaire.
+* In the game world, a day passes in just one second. Also, if you buy a stock, a few percent of the total amount will be added every second. 
+* For more information, please click the "How to play" button at the lower right.
 
-1. Make money by clicking the burger.
-2. In the game world, a day passes in just one second.
-3. You can increase the amount of money you get in 1 click or 1 second by purchasing items.
-4. If you want to save or reset your data, click the button at the lower left.
+
+Project Link: [https://tkwonn.github.io/computer-builder/](https://clicker-empire-game-five.vercel.app/)
 
 
 
