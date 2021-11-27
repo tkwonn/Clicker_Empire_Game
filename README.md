@@ -1,4 +1,4 @@
-### Clicker Empire Game
+# Clicker Empire Game
 
 [日本語版 README はこちら](https://github.com/tkwonn/Clicker_Empire_Game/blob/main/README-ja.md)
 
